@@ -13,3 +13,14 @@ https://emberjs.com/learn/
 + Dependency Injection & Services
 + Glimmer components via de import @glimmer/component (niet kijken naar @ember/component, die zijn deprecated en gebruiken we niet meer)
 + Algemeen in Javascript: Async/Await en Promises (snap goed het verschil tussen synchroon en asynchroon, het helpt als je de Event Loop in Javascript begrijpt)
+
+# Notes
+## ember
+## ember-concurrency
+## ember-auto-import
+## ember-truth-helpers
+## ember-cli-string-helpers
+## ember-composable-helpers
+## ember-data-storefront (dit neemt heel veel complexiteit van ember-data weg)
+## ember-cli-mirage (voor testing)
+## @glimmer/component
