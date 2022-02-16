@@ -16,6 +16,13 @@ https://emberjs.com/learn/
 
 # Notes
 ## ember
+hbs - Handlebars Basic
+
+argument met @ = Ember
+attribute zonder @ = html
+
+Ember-cli: ember serve duurt echt lang
+
 ## ember-concurrency
 ## ember-auto-import
 ## ember-truth-helpers
