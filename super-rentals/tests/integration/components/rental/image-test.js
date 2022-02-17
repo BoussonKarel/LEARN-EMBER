@@ -27,7 +27,7 @@ module('Integration | Component | rental/image', function (hooks) {
         src="/assets/images/teaching-tomster.png"
         alt="Teaching Tomster"
       />
-    `)
+    `);
 
     assert.dom('button.image').exists();
 
@@ -43,5 +43,5 @@ module('Integration | Component | rental/image', function (hooks) {
 
     assert.dom('.image').doesNotHaveClass('large');
     assert.dom('.image small').hasText('View Larger');
-  })
+  });
 });
