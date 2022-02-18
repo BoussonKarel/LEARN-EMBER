@@ -17,13 +17,12 @@ module('Integration | Component | map', function (hooks) {
     />`);
 
     assert
-    .dom('.map img')
-    .exists()
-    .hasAttribute('alt', 'Map image at coordinates 37.7797,-122.4184')
-    .hasAttribute('src')
-    .hasAttribute('width', '150')
-    .hasAttribute('height', '120');
-
+      .dom('.map img')
+      .exists()
+      .hasAttribute('alt', 'Map image at coordinates 37.7797,-122.4184')
+      .hasAttribute('src')
+      .hasAttribute('width', '150')
+      .hasAttribute('height', '120');
 
     let { src } = find('.map img');
     let token = encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
@@ -62,7 +61,7 @@ module('Integration | Component | map', function (hooks) {
     assert.dom('.map img').hasAttribute('alt', 'A map of San Francisco');
   });
 
-  test('it updates the `src` attribute when the arguments change', async function(assert) {
+  test('it updates the `src` attribute when the arguments change', async function (assert) {
     this.setProperties({
       lat: 37.7749,
       lng: -122.4194,
@@ -121,7 +120,7 @@ module('Integration | Component | map', function (hooks) {
       img.src.includes('300x200@2x'),
       'the src should include the width,height and @2x parameter'
     );
-  })
+  });
 
   test('the src, width and height attributes cannot be overridden', async function (assert) {
     await render(hbs`<Map
