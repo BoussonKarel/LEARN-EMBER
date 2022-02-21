@@ -24,10 +24,28 @@ attribute zonder @ = html
 Ember-cli: ember serve duurt echt lang
 
 ## ember-concurrency
+Tasks met state etc > loading indicators etc...
+http://ember-concurrency.com/docs/tutorial/refactor
+
 ## ember-auto-import
+Just install
+
 ## ember-truth-helpers
+Better if statements
+![ember-truth-helpers usage](images/9d0b98d4d6b9f3dde0baf058839c5e3f8ff6313e38636cd88446878fbd2db69b.png)  
+
 ## ember-cli-string-helpers
+capitalize, camelize, html-safe... strings
+
+https://github.com/romulomachado/ember-cli-string-helpers
+
 ## ember-composable-helpers
+Lots of helpers
+
 ## ember-data-storefront (dit neemt heel veel complexiteit van ember-data weg)
+
+
 ## ember-cli-mirage (voor testing)
+
 ## @glimmer/component
+Standaard?
